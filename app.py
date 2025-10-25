@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # タイトル
-st.markdown("### 🐰ままうさぎ🍼")
+st.markdown("### 🐰ままうさぎ🐣")
 st.markdown("---")
 
 # サイドバーにAPI Keyの入力欄を設置
