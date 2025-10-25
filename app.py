@@ -5,13 +5,13 @@ from datetime import datetime
 
 # ページの設定
 st.set_page_config(
-    page_title="ままうさぎ🐰💖",
+    page_title="ままうさぎ🐰",
     page_icon="🐰",
     layout="wide"
 )
 
 # タイトル
-st.markdown("### 🐰✨ままうさぎとおしゃべり🍼💖")
+st.markdown("### 🐰ままうさぎ🍼")
 st.markdown("---")
 
 # サイドバーにAPI Keyの入力欄を設置
