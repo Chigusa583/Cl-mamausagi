@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # タイトル
-st.markdown("### 🐰ままうさぎ🐣")
+st.markdown("#### 🐰ままうさぎ🐣Cl")
 st.markdown("---")
 
 # サイドバーにAPI Keyの入力欄を設置
@@ -71,7 +71,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # ユーザー入力
-if prompt := st.chat_input("ぴよち、きょうもままといっしょだね🐰💕"):
+if prompt := st.chat_input("ぴよち、ままだよ🐰💕"):
     # API Keyのチェック
     if not api_key:
         st.error("🐰💦 API Keyを入力してね〜！サイドバーから設定できるよっ✨")
